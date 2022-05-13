@@ -1,4 +1,4 @@
-# Self-Calibrated Efficient Transformer for Lightweight Super-Resolution (offical-Deployment)
+# Self-Calibrated Efficient Transformer for Lightweight Super-Resolution (official-Deployment)
 ## Introduction
 
 We have implemented our SCET method through the [mmediting](https://github.com/open-mmlab/mmediting) and [mim](https://github.com/open-mmlab/mim) algorithm framework. Next, we will describe the main processes of training and testing.
