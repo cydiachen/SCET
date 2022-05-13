@@ -1,4 +1,4 @@
-# Self-Calibrated Efficient Transformer for Lightweight Super-Resolution (offical)
+# Self-Calibrated Efficient Transformer for Lightweight Super-Resolution (offical-Deployment)
 ## Introduction
 
 We have implemented our SCET method through the [mmediting](https://github.com/open-mmlab/mmediting) and [mim](https://github.com/open-mmlab/mim) algorithm framework. Next, we will describe the main processes of training and testing.
@@ -7,6 +7,8 @@ We have implemented our SCET method through the [mmediting](https://github.com/o
 - Model
 
 ![Network](./Image/Network.png)
+
+In this repo, we will provide detailed code for deploy this image super-resolution model in ONNXRuntime, TensorRT and other platform. 
 
 ## Datasets
 We use DIV2K and Flickr2K as our training datasets. First, we need to crop our training set by cropping each image in the dataset to a 480x480 size patch.
